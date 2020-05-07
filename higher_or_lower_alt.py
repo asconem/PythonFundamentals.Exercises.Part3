@@ -4,9 +4,11 @@ def get_user_guess():
         user_guess = int(input("Invalid number. Enter a number between 0 an 10: "))
     return user_guess
 
+
 def get_random_number():
     from random import randrange
-    return randrange(1,11)
+    return randrange(1, 11)
+
 
 def evaluate_result():
     user = get_user_guess()
@@ -18,5 +20,6 @@ def evaluate_result():
     else:
         print("Your guess was correct! Nice job!")
     print("The random number was " + str(computer) + ".")
+
 
 evaluate_result()

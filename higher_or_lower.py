@@ -1,5 +1,6 @@
 from random import randrange
 
+
 def guessing_game():
     user_guess = int(input("Enter a number between 0 an 10: "))
     while user_guess < 0 or user_guess > 10:
@@ -12,5 +13,6 @@ def guessing_game():
     else:
         print("Your guess was correct! Nice job!")
     print("The random number was " + str(comp_number) + ".")
+
 
 guessing_game()
