@@ -27,7 +27,6 @@ def name_input(language):
     elif language == 3:
         user_name = input("Por favor, escriba su nombre: ")
         print("Hola " + user_name + "! Como estas hoy?")
-    return user_name
 
 
 name_input(language_input())
